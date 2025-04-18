@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-color: #030324;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.anuncios{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+
+h1{
+   color: #ffcfcf;
+   font-size: 20pt; 
+} 
+
+h2{
+   color: white;
+   font-size: 20px;
+}
+
+ul{
+   display: flex;
+   gap: 20px;
+}
+
+li{
+   padding: 20px;
+   background-color: #303072;
+   border-radius: 20px;
+}
+
+li.produto { 
+   width: 210px; 
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+} 
+
+.preco { 
+   font-weight: bold ; 
+   font-size: 14pt ; 
+   color: #8b8b8b ; 
+} 
+
+.reserva { 
+   width: 100px;
+   height: 35px;
+   display: block;
+   border: 0;
+   border-radius: 8px;
+   background-color: #e75b7e;
+   color: #FFFFFF;
+   font-size: 17px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   transition: transform 0.4s;
+   margin-inline: 25%;
+} 
+
+.reserva:hover{
+   background-color: #00A606;
+   transform: scale(1.1);
+}
+
+p{ 
+   font-weight: bold; 
+   font-size: 14pt ; 
+   color: #ff9898 ; 
+}
