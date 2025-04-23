@@ -1,1 +1,1 @@
-projeto criado por puro entretenimento.
+projeto criado para fins humorísticos.
